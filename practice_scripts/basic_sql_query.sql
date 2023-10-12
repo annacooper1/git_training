@@ -2,4 +2,4 @@
 
 SELECT TOP 100 *
 FROM db.my_table
-WHERE Year = 2018;
+WHERE Year in (2018, 2019);
